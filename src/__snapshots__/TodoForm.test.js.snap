@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot is consistent 1`] = `
+<DocumentFragment>
+  <form
+    class="mt-4"
+  >
+    <div
+      class="form-group"
+    >
+      <label
+        class="mb-2"
+        for="todo"
+      >
+        Create Todo
+      </label>
+      <input
+        class="form-control"
+        id="todo"
+        name="todo"
+        placeholder="What to do..."
+        type="text"
+        value=""
+      />
+    </div>
+    <button
+      class="mt-2 btn btn-primary"
+    >
+      Create
+    </button>
+  </form>
+</DocumentFragment>
+`;

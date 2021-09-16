@@ -1,12 +1,11 @@
 import { render, screen } from '@testing-library/react';
-import App from './App';
+import TodoForm from './TodoForm';
 
 test('renders ok', () => {
-  render(<App />);
+  render(<TodoForm />);
 });
 
 test('snapshot is consistent', () => {
-  let {asFragment}=render(<App />);
+  let {asFragment}=render(<TodoForm />);
   expect(asFragment()).toMatchSnapshot()
 });
-
